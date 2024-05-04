@@ -24,19 +24,3 @@ image {
 p {
   padding: 10px;    
 }
-
-body {
-    font-family: 'Brush Script MT';
-}
-
-h1 {
-  font-family: 'Arial Black';
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-body {
-    font-family: Roboto, Helvetica, sans-serif;
-}
-h1 {
-    font-family: 'Rock Salt', 'Bradley Hand', cursive;
-}
