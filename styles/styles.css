@@ -16,8 +16,7 @@ h1 {
 image {
    width: 150px;
    height: auto;
-   border: 1px solid steelblue;
-   padding: 2xp
+   border: steelblue solid 1px;
    box-shadow: 0 0 30px gray;    
 }
 
@@ -42,7 +41,7 @@ aside {
 main img {
   width: 150px;
   height: auto;
-  ...
+
 }
 
 p { padding: 0;}
