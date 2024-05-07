@@ -7,10 +7,10 @@ body {
 }
 
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-colo: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent-color2: #XXXXXX;
+    --primary-color: #A41623;
+    --secondary-colo: #F85E00;
+    --accent1-color: #FFB563;
+    --accent-color2: #918450;
 
     --heading-font: Roboto , serif;
     --paragraph-font: 'Sedan SC', serif;
