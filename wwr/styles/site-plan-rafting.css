@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 body {
-    font-family: var(--paragraph-font;)
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
@@ -12,13 +12,19 @@ body {
     --accent1-color: #FFB563;
     --accent-color2: #918450;
 
-    --heading-font: Roboto , serif;
-    --paragraph-font: 'Sedan SC', serif;
+    --heading-font: '____', serif;
+    --paragraph-font: '____', serif;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: #8F8081;
+    --nav-link-color: #523CC8;
+    --nav-hover-link-color: #F3EEE9;
+    --nav-hover-background-color: #D6E9E4;
+}
+
+body {
+    f____: var(--paragraph-font);
+    m____: ____;
+    p____: ____;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    padding: 20px
+    padding: 20px;
     background-color: var(--accent1-color);
 }
 
@@ -49,7 +55,7 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-hover-link-color) ;
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
