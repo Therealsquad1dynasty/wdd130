@@ -58,6 +58,12 @@ aside {
   text-align: center;
 }
 
+aside h2 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
 main img {
   width: 150px;
   height: auto;
