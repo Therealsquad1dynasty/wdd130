@@ -34,8 +34,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 12opx 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #8F8081;
+    max-width: 1000px;
     padding: 20px;
     background-color: var(--accent1-color);
+}
+
+.logo img {
+    margin: 0, 0.25rem;
+    width: 65px;
+    height: auto;
 }
 
 .hero {
@@ -94,6 +106,25 @@ section {
     padding-top: 10px;
 }
 
-section img {
-    
-}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
+
+  img {
+    max-width: 220px;
+    max-height: 150px;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  
