@@ -2,44 +2,47 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>    
 <body>
-<header>
-    <h1>What does the acronym CSS stand for?</h1>
-</header>  
-<main>
-  <form>
-     <fieldset>
-        <legend>question</legend>
-        <label for="fill in the blank:">fill in the blank:</label>
-        <input type="text" id" name="q1">
-        <label for="fill in the blank:">fill in the :blank:</label>
-        <input type="question" id="q1" name="q1"> 
-        <textarea>short answer question</textarea>
-     </fieldset>
-     <fieldset>
-        <legend>Questions</legend>
-        <label for="What are id and class attributes selected in CSS?">what is your favorite internet browser?</label>
-        <select id="id and class" name="id and class">
-            <option value="chrome">Chrome</option>
-            <option value="firefox">Firefox</option>
-            <option value="safari">Safari</option>
-            <option value="edge">Edge</option>
-            <option value="brave">Brave</option>
-            <option value="other">Other</option>
-        </select>
-        <label for="CSS comment">Which of the following is a CSS comment?</label>
-        <input type="checkbox" id="q3" name="q3">
-        <label for="feedback">List the places you have lived:</label>
-        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
-     </fieldset>
-     <button type="submit">Submit Poll</button>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="submit_quiz" method="post">
+    <!-- Question 1: Text Input -->
+    <div class=:"form-group">
+      <label for="q1">What does the acronym HTML stand for?</label>
+      <input type="text" id="q1" name="q1">
+      </div>
+
+      <!-- Question 2: textarea -->
+      <div class="form-group">
+      <label for="q2" name="q2">What are id and class attributes selected in CSS?</label>
+      <textarea id="q2" name="q2" rows="4" cols="50"></textarea>
+      </div>
+
+      <!-- Question 3: Select Box -->
+      <div class="form-group">
+      <label for="q3">Which of the following is a valid CSS comment?</label>
+      <select id="q3" name="q3">
+      <option value="" selected disabled>Choose One.</option>
+      <option value="/* This is a CSS comment */;">&lt;/* This is a CSS comment */;</option>
+      <option value="<!-- This a CSS comment -->">&lt;<!-- This is a CSS comment -->;</option>
+      <option value="This is a comment">&lt;This is a comment;</option>
+      </select>
+      </div>
+
+      <!-- Question 4: Number Input -->
+      <div class="form-group">
+          <label for="q4">What is the bottom margin given this declaration?</label>
+          <input type="number" id="q4" name="q4" min="0" max="30">
+      </div>
+
+     <!-- Submit Button -->
+  <div class="form-group button-group">
+      <button type="submit">Submit Quiz</button>
+  </div>
+
    </form>
-</main>
-<footer>
-    <p></p>
-</footer>  
 </body>
 </html>
