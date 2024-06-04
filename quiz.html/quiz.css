@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic HTML and CSS Quiz</title>
+</head>    
+<body>
+<header>
+    <h1>What does the acronym CSS stand for?</h1>
+</header>  
+<main>
+  <form>
+     <fieldset>
+        <legend>question</legend>
+        <label for="fill in the blank:">fill in the blank:</label>
+        <input type="text" id" name="q1">
+        <label for="fill in the blank:">fill in the :blank:</label>
+        <input type="question" id="q1" name="q1"> 
+        <textarea>short answer question</textarea>
+     </fieldset>
+     <fieldset>
+        <legend>Questions</legend>
+        <label for="What are id and class attributes selected in CSS?">what is your favorite internet browser?</label>
+        <select id="id and class" name="id and class">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="CSS comment">Which of the following is a CSS comment?</label>
+        <input type="checkbox" id="q3" name="q3">
+        <label for="feedback">List the places you have lived:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+     </fieldset>
+     <button type="submit">Submit Poll</button>
+   </form>
+</main>
+<footer>
+    <p></p>
+</footer>  
+</body>
+</html>
