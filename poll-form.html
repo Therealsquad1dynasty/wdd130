@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | Html Form - User Poll</title>
+</head>    
+<body>
+<header>
+    <h1>WDD 130 | George Bansah | Html Form - Poll User</h1>
+</header>  
+<main>
+  <form>
+     <fieldset>
+        <legend>contact Information</legend>
+        <label for="fullname">George Bansah:</label>
+        <input type="text" id="fullname" name="fullname">
+        <label for="usermail">georgebansah74@gmail.com:</label>
+        <input type="email" id="usermail" name="usermail">
+     </fieldset>
+     <fieldset>
+        <legend>Questions</legend>
+        <label for="browser">what is your favorite internet browser?</label>
+        <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" id="pet" name="pet">
+        <label for="feedback">List the places you have lived:</label>
+        <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+     </fieldset>
+     <button type="submit">Submit Poll</button>
+   </form>
+</main>
+<footer>
+    <p>©2020 | Html Form - User Poll Activity | George Bansah</p>
+</footer>  
+</body>
+</html>
