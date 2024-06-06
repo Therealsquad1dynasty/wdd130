@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -72,57 +73,3 @@ header {
     text-align: center;
 }
 
-.hero article {
-    display: block;
-    width: 30%;
-    height: auto;
-    margin-left: 1rem;
-}
-
-.hero article {
-    display: flex;
-    position: absolute;
-    background-color: hsla(hue, saturation, lightness, alpha);
-    width: 70%;
-    top: auto;
-    color: white;
-    flex-direction: row-reverse;
-    padding: 2rem;
-}
-
-p { 
-    font-family: var(--paragraph-font);
-    padding: 1rem;
-}
-
-h1, h2 {
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
-    padding-bottom: 1rem;
-}
-
-section {
-    padding-top: 10px;
-}
-
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-  }
-
-  img {
-    max-width: 220px;
-    max-height: 150px;
-  }
-  
-  figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-  }
