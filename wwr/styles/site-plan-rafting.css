@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+element.style {
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
 
 body {
     font-family: var(--paragraph-font);
